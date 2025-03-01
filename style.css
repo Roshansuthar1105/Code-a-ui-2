@@ -304,6 +304,9 @@ body {
   flex-direction: column;
   gap: 10px;
   z-index: 1000;
+  width: fit-content;
+  display: flex;
+  gap: 90px;
 }
 
 .btn {
