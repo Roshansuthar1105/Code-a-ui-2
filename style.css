@@ -762,19 +762,17 @@ h2 {
   gap: 15px;
   overflow-x: auto;
   padding-bottom: 10px;
+  overflow-x: scroll;
+  min-width: 100%;
 }
 
 .essential-card {
   background: #f9f9f9;
   border-radius: 8px;
-  /* padding: 10px; */
   text-align: center;
-  flex: 1 1 auto;
-  /* width: 180px;     */
-  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
-  gap: 5px;
   border: 1px solid #ccc;   
   display: flex;
+  width: 450px;
 }
 .essential-card div {
   display: flex;
